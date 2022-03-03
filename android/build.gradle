@@ -9,7 +9,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle:4.0.0'
     }
 }
 
@@ -43,7 +43,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:+'
-    compile 'com.amap.api:navi-3dmap:6.9.0_3dmap6.9.2'
+    implementation 'com.facebook.react:react-native:+'
+    implementation 'com.amap.api:navi-3dmap:6.9.0_3dmap6.9.2'
 }
   
